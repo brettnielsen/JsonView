@@ -34,7 +34,7 @@ A lightweight, native macOS JSON editor built with SwiftUI.
 ```bash
 git clone https://github.com/yourusername/json-editor.git
 cd json-editor
-open JSONEditor.xcodeproj
+open JSONav.xcodeproj
 ```
 
 Build and run with `⌘R` in Xcode.
@@ -68,7 +68,7 @@ The right panel is a full-featured text editor:
 
 ```
 JSONEditor/
-├── JSONEditorApp.swift           # App entry point
+├── JSONavApp.swift           # App entry point
 ├── Models/
 │   ├── AppearanceMode.swift      # Light/dark mode handling
 │   ├── JSONNode.swift            # Tree node model
