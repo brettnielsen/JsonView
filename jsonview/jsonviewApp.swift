@@ -6,6 +6,27 @@ struct JSONEditorApp: App {
     @AppStorage("appearanceMode") private var appearanceMode: AppearanceMode = .system
     
     var body: some Scene {
+        // Menu bar item
+        MenuBarExtra {
+            Button("Open JSON Editor") {
+                NSApp.activate(ignoringOtherApps: true)
+                if let window = NSApp.windows.first {
+                    window.makeKeyAndOrderFront(nil)
+                }
+            }
+            .keyboardShortcut("o")
+            
+            Divider()
+            
+            Button("Quit") {
+                NSApp.terminate(nil)
+            }
+            .keyboardShortcut("q")
+        } label: {
+            Image(systemName: "curlybraces")
+        }
+        
+        // Main window
         WindowGroup {
             ContentView(appearanceMode: $appearanceMode)
                 .preferredColorScheme(appearanceMode.colorScheme)

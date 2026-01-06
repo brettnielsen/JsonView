@@ -7,7 +7,7 @@ A lightweight, native macOS JSON editor built with SwiftUI.
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
-  <img src="screenshots/light-mode.png" width="800" alt="JSON Editor in Light Mode">
+  <img src=“docs/screenshots/lightmode.png" width="800" alt="JSON Editor in Light Mode">
 </p>
 
 ## Features
@@ -87,11 +87,15 @@ JSONEditor/
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/dark-mode.png" width="800" alt="JSON Editor in Dark Mode">
+  <img src=“docs/screenshots/darkmode.png" width="800" alt="JSON Editor in Dark Mode">
 </p>
 
 <p align="center">
-  <img src="screenshots/validation.png" width="800" alt="Real-time Validation">
+  <img src=“docs/screenshots/validation.png" width="800" alt="Real-time Validation">
+</p>
+
+<p align="center">
+  <img src=“docs/screenshots/compact.png" width="800" alt=“Compact view">
 </p>
 
 ## Contributing

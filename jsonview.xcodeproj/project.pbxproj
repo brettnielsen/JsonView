@@ -29,6 +29,11 @@
 			path = jsonview;
 			sourceTree = "<group>";
 		};
+		6CEC6F542F0C70B100F65ABC /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 		6CCA90062F0C47BE0077216B = {
 			isa = PBXGroup;
 			children = (
+				6CEC6F542F0C70B100F65ABC /* screenshots */,
 				6CCA90112F0C47BE0077216B /* jsonview */,
 				6CCA90102F0C47BE0077216B /* Products */,
 			);
@@ -75,6 +81,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6CCA90112F0C47BE0077216B /* jsonview */,
+				6CEC6F542F0C70B100F65ABC /* screenshots */,
 			);
 			name = jsonview;
 			packageProductDependencies = (
